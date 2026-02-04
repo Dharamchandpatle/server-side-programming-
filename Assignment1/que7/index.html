@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Employee Registration Form</title>
+
+<style>
+body {
+    font-family: Arial;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    color: red;
+}
+
+table {
+    margin: auto;
+    padding: 20px;
+}
+
+td {
+    padding: 8px;
+}
+
+input, select, textarea {
+    padding: 5px;
+    width: 200px;
+}
+
+.buttons {
+    text-align: center;
+}
+</style>
+
+</head>
+
+<body>
+
+<center>
+    <img src="https://cdn-icons-png.flaticon.com/128/3135/3135715.png" width="60">
+    <h1>Employee Registration Form</h1>
+</center>
+
+<form>
+
+<table>
+
+<tr>
+<td></td>
+<td>
+<input type="radio" name="title" checked> Mr.
+<input type="radio" name="title"> Mrs.
+<input type="radio" name="title"> Ms.
+</td>
+</tr>
+
+<tr>
+<td>First Name</td>
+<td><input type="text" placeholder="First Name"></td>
+</tr>
+
+<tr>
+<td>Last Name</td>
+<td><input type="text" placeholder="Last Name"></td>
+</tr>
+
+<tr>
+<td>Mail Address1</td>
+<td><input type="text"></td>
+</tr>
+
+<tr>
+<td>Mail Address2</td>
+<td><input type="text"></td>
+</tr>
+
+<tr>
+<td>City</td>
+<td><input type="text"></td>
+</tr>
+
+<tr>
+<td>State</td>
+<td>
+<select>
+<option selected>Gujarat</option>
+<option>Maharashtra</option>
+<option>Rajasthan</option>
+<option>Delhi</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Zip</td>
+<td><input type="text"></td>
+</tr>
+
+<tr>
+<td>Upload Photo</td>
+<td><input type="file"></td>
+</tr>
+
+<tr>
+<td>E-Mail</td>
+<td><input type="email"></td>
+</tr>
+
+<tr>
+<td>Mobile</td>
+<td><input type="text" value="+91"></td>
+</tr>
+
+<tr>
+<td>Languages known</td>
+<td>
+<input type="checkbox" checked> Gujarati <br>
+<input type="checkbox" checked> Hindi <br>
+<input type="checkbox" checked> English <br>
+<input type="checkbox"> Marathi
+</td>
+</tr>
+
+<tr>
+<td>Additional Information</td>
+<td>
+<textarea rows="4" cols="25" placeholder="Optional"></textarea>
+</td>
+</tr>
+
+<tr>
+<td colspan="2" class="buttons">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+
+</table>
+
+</form>
+
+</body>
+</html>
