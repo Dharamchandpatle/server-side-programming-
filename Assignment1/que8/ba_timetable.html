@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BA Timetable</title>
+  <style>
+    :root { --bg: #f4f7fb; --card: #ffffff; --text: #1a1a1a; --accent: #1f5ba6; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, Helvetica, sans-serif; background: var(--bg); color: var(--text); }
+    header { background: var(--card); padding: 20px; border-bottom: 2px solid #e6edf5; }
+    .container { width: 92%; max-width: 900px; margin: 0 auto; }
+    nav ul { list-style: none; display: flex; gap: 18px; flex-wrap: wrap; margin-top: 10px; }
+    nav a { text-decoration: none; color: var(--accent); font-weight: bold; }
+    .card { background: var(--card); padding: 22px; margin: 22px 0; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.06); }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th, td { border: 1px solid #dfe7f1; padding: 8px; text-align: left; }
+    th { background: #eef3fb; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>IET DAVV College</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="academics.html">Academics</a></li>
+          <li><a href="admission.html">Admission</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>BA Timetable</h2>
+      <table>
+        <tr><th>Day</th><th>9:00-10:00</th><th>10:00-11:00</th><th>11:15-12:15</th></tr>
+        <tr><td>Mon</td><td>English</td><td>History</td><td>Political Science</td></tr>
+        <tr><td>Wed</td><td>Sociology</td><td>English</td><td>Seminar</td></tr>
+        <tr><td>Fri</td><td>History</td><td>Political Science</td><td>Elective</td></tr>
+      </table>
+    </section>
+  </main>
+</body>
+</html>
